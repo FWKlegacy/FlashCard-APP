@@ -1,0 +1,75 @@
+.App {
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+  }
+  
+  .flashcard-form {
+    margin: 20px 0;
+  }
+  
+  .flashcard-form input {
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+  
+  }
+
+  .flashcard-form button {
+    background-color:gray; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .flashcard-form button:hover {
+    background-color: #45a049; 
+  }
+  
+  .flashcard-form button:active {
+    background-color: #3e8e41; 
+    transform: scale(0.98); 
+  }
+  
+  
+  .flashcard-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .flashcard {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .flashcard button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
